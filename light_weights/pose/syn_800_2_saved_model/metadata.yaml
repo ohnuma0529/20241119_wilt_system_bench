@@ -1,0 +1,17 @@
+description: Ultralytics YOLOv8n-pose model trained on cross_validation_dataset2/syn_800/cross_val_2/config.yaml
+author: Ultralytics
+date: '2024-11-09T16:51:38.232454'
+version: 8.2.100
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: pose
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: leaf
+kpt_shape:
+- 2
+- 2
